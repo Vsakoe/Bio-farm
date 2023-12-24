@@ -5,7 +5,9 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 @loader.tds
 class stickersMod(loader.Module):
-  """by @Vsakoe0"""
+  """by @Vsakoe0 | этот модуль позволит автоматически копить био опыт, ресурсы только при помощи одной команды.
+  
+  (на балансе необходибо иметь ресурсы для покупки патогенов)"""
   strings = {'name':'bio farm'}
   async def zarazcmd(self, message):
       """.zaraz (количиство)"""
